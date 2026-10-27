@@ -1,0 +1,6 @@
+{
+  "name": "Blackwood Manor: Bio-Hazard 1998",
+  "description": "A pixel-art survival horror game inspired by classic Resident Evil, featuring interconnected mansion rooms, dynamic jumpscares, tactical inventory management, puzzles, and atmospheric procedural sound.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
