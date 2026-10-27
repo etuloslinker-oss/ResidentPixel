@@ -1880,10 +1880,17 @@ export default function App() {
               <button
                 type="button"
                 onClick={() => updateGameState('title')}
-                className="w-full py-2.5 text-xs font-mono font-semibold bg-[#090a0d] hover:bg-[#141720] text-[#a1a1aa] border border-[#27272a] transition-colors whitespace-nowrap shrink-0"
+                className="w-full py-2.5 text-xs font-mono font-semibold bg-[#090a0d] hover:bg-[#141720] text-[#a1a1aa] border border-[#27272a] transition-colors whitespace-nowrap shrink-0 cursor-pointer"
               >
                 Return to Title Screen
               </button>
+              <a
+                href="/blackwood-manor-standalone.html"
+                download="index.html"
+                className="w-full py-2.5 text-center text-xs font-mono font-semibold bg-[#101916] hover:bg-[#162621] text-[#34d399] border border-[#065f46] transition-colors whitespace-nowrap shrink-0"
+              >
+                Export Standalone index.html (Vercel / Offline)
+              </a>
             </div>
           </div>
         </div>
